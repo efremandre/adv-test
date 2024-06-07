@@ -112,10 +112,12 @@
 .slide-image-wrapper {
 	position: relative;
 	z-index: 1;
+	height: clamp(12.875rem, 12.25rem + 3.125vw, 16rem);
+	background: rgba(0, 0, 0, .2);
 }
 
 .slide-image-wrapper img {
-	height: clamp(12.875rem, 12.25rem + 3.125vw, 16rem);
+	height: 100%;
 }
 
 .slide-title {
